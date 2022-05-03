@@ -45,7 +45,7 @@ video.addEventListener('play', () => {
 })
 
 function loadLabeledImages() {
-  const labels = ['Black Widow', 'Captain America', 'Captain Marvel', 'Hawkeye', 'Jim Rhodes', 'Thor', 'Tony Stark', 'Naitik']
+  const labels = ['black widow', 'captain america', 'captain marvel', 'hawkeye', 'jim rhodes', 'thor', 'tony stark', 'naitik']
   return Promise.all(
     labels.map(async label => {
       const descriptions = []
