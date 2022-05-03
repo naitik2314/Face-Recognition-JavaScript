@@ -6,4 +6,4 @@ git push origin master
 
 read
 
-exit
+return
